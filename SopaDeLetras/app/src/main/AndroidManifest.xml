@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sopadeletras">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash"></activity>
+        <activity android:name=".SplashTrans5" />
+        <activity android:name=".Splash6" />
+        <activity android:name=".Splash4" />
+        <activity android:name=".Splash3" />
+        <activity android:name=".Splash2" />
+        <activity android:name=".Splash1" />
+        <activity android:name=".Opciones" />
+        <activity android:name=".Inicio" />
+        <activity android:name=".Nivel6" />
+        <activity android:name=".Nivel5" />
+        <activity android:name=".Nivel4" />
+        <activity android:name=".Nivel3" />
+        <activity android:name=".Nivel2" />
+        <activity android:name=".Nivel1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
